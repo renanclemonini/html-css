@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+    <style>
+        body{
+            background-color: rgba(158, 228, 224, 0.856);
+            color: rgb(41, 33, 33);
+        }
+        h1{
+            text-align: left;
+            text-decoration: underline;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 26pt;
+            color: black;
+        }
+        h2{
+            text-align: justify;
+            font-size: 24pt;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16pt;
+            color: black;
+        }
+        mark{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <img src="logomarca-rsc.png" alt="Logo RSC">
+    <hr>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>->Nesta frase temos um <b>termo em negrito</b> usando a tag <mark>&lt; b &gt;</mark> <strong>(não semantica)</strong></p>
+    <p>->Temos também um <strong>termo em negrito</strong> utilizando a tag <mark>&lt;strong&gt;</mark> <strong>(semantica)</strong></p>
+    <h2>Italico / Enfase </h2>
+    <p>->Para escrever <i>termo em italico</i> usa-se a tag <mark>&lt;i&gt;</mark> <strong>(não semantica)</strong> </p>
+    <p>->Nesta frase temos um <em>termo em ênfase</em> utilizando a tag <mark>&lt;em&gt;</mark> <strong>(semantica)</strong></p>
+    <h2>Texto Marcado</h2>
+    <p>->Podemos criar um <mark>texto marcado</mark> com a tag &lt;MARK&gt</p>
+    <p>->Para alterar a cor do &lt;mark&gt; basta adicionar o parametro de css &lt;mark style = "background-color: color;"&gt; onde o mesmo <mark>ficará assim</mark></p>
+    <h2>Texto Grande e pequeno</h2>
+    <p>Estamos criando um <strong><big>texto grande</big></strong> e um <small>texto pequeno</small> nesse paragráfo.</p>
+    <h2><del>Texto deletado</del></h2>
+    <p>Podemos marcar um texto como <del>excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2><ins>Texto inserido</ins></h2>
+    <p>Podemos marcar um texto como <ins>inserido</ins> para indicar que ele foi adicionado depois.</p>
+    <h2>Texto <sup>Sobrescrito</sup> e <sub>Subscrito</sub></h2>
+    <p>Textos sobrescritos são aqueles a exemplo do sinal de potenciação do numero x<sup>2</sup> ao quadrado.</p>
+    <p>E textos subscrito são aqueles a exemplo de formúlas quimicas: H<sub>2</sub>O</p>
+</body>
+</html>
