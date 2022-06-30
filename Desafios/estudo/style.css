@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.content {
+    background-image: linear-gradient(to left, rgb(5, 241, 163), rgb(3, 160, 68));
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.788);
+}
+
+.lorem {
+    font-family: fantasy;
+    color: rgb(184, 184, 0);
+    padding: 5px 0px;
+}
+
