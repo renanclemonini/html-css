@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.header{
+    grid-area: header;
+}
+
+.sidenav{
+    grid-area: sidenav;
+}
+
+.content{
+    grid-area: content;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.container{
+    background-color: blue;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 50px 20px;
+    grid-template-columns: 100px 10%;
+    grid-template-areas: "header sidenav" "header content" "header footer";
+    gap: 100px 50px;
+    justify-items: stretch;
+}
+
+.item{
+    background-color: lightblue;
+    border: 3px solid gray;
+}
