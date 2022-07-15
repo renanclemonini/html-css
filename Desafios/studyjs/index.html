@@ -8,24 +8,32 @@
 </head>
 <body>
     
-    <input type="text" id="busca">
+    <input type="text" id="busca" onclick="limpar()">
     <button onclick="valida()">Pesquisar</button>
 
     <script>
         function valida(){
-            var ValorInputPesquisa = document.getElementById('busca');
-            var InputPesquisa= document.getElementById('busca');
-            if (ValorInputPesquisa == "");
-                InputPesquisa.style.borderColor='red';
+            var ValorInputPesquisa = document.getElementById;('busca').value;
+            var inputPesquisa= document.getElementById('busca');
+            if (ValorInputPesquisa== ""){
+                inputPesquisa.style.borderColor='red';
                 alert('Campo Obrigatório');
                 return false;
-        }
-        if (ValorInputPesquisa.length<3){
-            InputPesquisa.style.backgroundColor='yellow';
-            alert('Digite pelo menos 3 caracteres');
-            return false;
+            }
+
+            if (ValorInputPesquisa.length<3){
+                inputPesquisa.style.backgroundColor='yellow';
+                alert('Digite pelo menos 3 caracteres');
+                return false;
+            }
         }
 
+        function limpar(){
+            document.getElementById('busca').style.borderColor='black';
+            document.getElementById('busca').style.backgroundColor='white';
+            document.getElementById('busca').value='';
+
+        }
     </script>
 
 </body>
