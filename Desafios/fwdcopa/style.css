@@ -1,0 +1,71 @@
+/* Paleta de Cores: 
+    -#C1272D
+    -#613032
+    -#AD2327
+    -#E02D33
+    -#E6494F */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+root{
+    --cor_borda: #613032;
+}
+
+header{
+    background-image: url(imagens/bandeira.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #EB0013;
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 2px solid var(--cor_borda);
+    background-color: #EB0013;
+}
+
+nav a{
+    margin-left: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #613032;
+    font-weight: 600;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.3em;
+    color: #E6494F;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+main{
+    border-left: 2px solid #613032;
+    border-right: 2px solid #613032;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+main h2{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+main p{
+    margin: 15px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
