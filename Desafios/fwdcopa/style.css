@@ -12,13 +12,15 @@
 
 root{
     --cor_borda: #613032;
+    --corbg: #EB0013;
+    --corletratitulo: #0B5035;
 }
 
 header{
     background-image: url(imagens/bandeira.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #EB0013;
+    background-color: var(--corbg);
     padding: 110px;
     display: flex;
     justify-content: center;
@@ -36,17 +38,14 @@ nav a{
     margin-left: 15px;
     font-size: 1.2em;
     text-decoration: none;
-    color: #613032;
+    color: #0B5035;
     font-weight: 600;
 }
 
 nav a:hover{
     text-decoration: underline;
-    font-size: 1.3em;
-    color: #E6494F;
-    background-color: white;
+    color: white;
     border-radius: 5px;
-    padding: 5px;
     transition: 0.5s;
 }
 
@@ -56,6 +55,7 @@ main{
     padding: 10px;
     margin: auto;
     width: 80%;
+    box-shadow: 5px 5px 3px var(--cor_borda);
 }
 
 main h2{
@@ -68,4 +68,15 @@ main p{
     padding-bottom: 10px;
     font-size: 1.2em;
     letter-spacing: 1px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #613032;
+
+}
+
+footer p{
+    margin: 5px;
 }
