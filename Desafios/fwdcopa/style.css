@@ -20,7 +20,7 @@ header{
     background-image: url(imagens/bandeira.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: var(--corbg);
+    background-color: #EB0013;
     padding: 110px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    border-bottom: 2px solid var(--cor_borda);
+    border-bottom: 2px solid #613032;
     background-color: #EB0013;
 }
 
@@ -55,12 +55,24 @@ main{
     padding: 10px;
     margin: auto;
     width: 80%;
-    box-shadow: 5px 5px 3px var(--cor_borda);
+    box-shadow: 1px 1px 5px #613032;
 }
 
 main h2{
     padding: 10px;
     font-size: 1.5em;
+    text-align: center;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main h3, h4{
+    padding: 10px;
+    font-size: 1.3em;
 }
 
 main p{
@@ -70,11 +82,46 @@ main p{
     letter-spacing: 1px;
 }
 
+hr{
+    margin: 20px;
+}
+
+.jogador{
+    width: 50%;
+}
+
+.img{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+ul{
+    padding-left: 50px;
+}
+
+li{
+    font-weight: 500;
+    margin: 5px;
+}
+
+.espaco{
+    padding-bottom: 10px;
+}
+
 footer{
     text-align: center;
     padding: 10px;
     border-top: 2px solid #613032;
-
+    letter-spacing: 1px;
+    color: #0B5035;
+    font-weight: bold;
 }
 
 footer p{
