@@ -95,10 +95,6 @@ hr{
     margin: 20px;
 }
 
-.jogador{
-    width: 50%;
-}
-
 .img{
     text-align: center;
 }
@@ -122,6 +118,24 @@ li{
 
 .espaco{
     padding-bottom: 10px;
+}
+
+.draft {
+    margin: 20px 50px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.draft img {
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 footer{
