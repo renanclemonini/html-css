@@ -35,7 +35,6 @@ nav{
 }
 
 nav a{
-    margin-left: 15px;
     font-size: 1.2em;
     text-decoration: none;
     color: #0B5035;
@@ -45,7 +44,6 @@ nav a{
 nav a:hover{
     text-decoration: underline;
     color: white;
-    border-radius: 5px;
     transition: 0.5s;
 }
 
@@ -68,6 +66,17 @@ main h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 40px 10px 40px;
 }
 
 main h3, h4{
@@ -99,7 +108,7 @@ figure{
 }
 
 img{
-    width: 50%;
+    width: 80%;
 }
 
 ul{
@@ -126,4 +135,124 @@ footer{
 
 footer p{
     margin: 5px;
+}
+
+@media (max-width: 650px){
+    header{
+        background-image: url(imagens/bandeira.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: #EB0013;
+        padding: 110px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        border-bottom: 2px solid #613032;
+        background-color: #EB0013;
+    }
+    
+    nav a{
+        font-size: 1em;
+        text-decoration: none;
+        color: #0B5035;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    
+    nav a:hover{
+        text-decoration: underline;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    main{
+        border-left: 2px solid #613032;
+        border-right: 2px solid #613032;
+        padding: 10px;
+        margin: auto;
+        width: 80%;
+        box-shadow: 1px 1px 5px #613032;
+    }
+    
+    main h2{
+        padding: 10px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .tabela{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    
+    td, th{
+        border: 1px solid black;
+        padding: 10px 15px 10px 15px;
+    }
+    
+    main h3, h4{
+        padding: 10px;
+        font-size: 1.3em;
+    }
+    
+    main p{
+        margin: 15px;
+        padding-bottom: 10px;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+    
+    hr{
+        margin: 20px;
+    }
+    
+    .img{
+        text-align: center;
+    }
+    
+    figure{
+        text-align: center;
+    }
+    
+    img{
+        width: 95%;
+    }
+    
+    ul{
+        padding-left: 50px;
+    }
+    
+    li{
+        font-weight: 500;
+        margin: 5px;
+    }
+    
+    .espaco{
+        padding-bottom: 10px;
+    }
+    
+    footer{
+        text-align: center;
+        padding: 10px;
+        border-top: 2px solid #613032;
+        letter-spacing: 1px;
+        color: #0B5035;
+        font-weight: bold;
+    }
+    
+    footer p{
+        margin: 5px;
+    }
 }
