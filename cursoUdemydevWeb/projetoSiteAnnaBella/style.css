@@ -2,11 +2,13 @@ body{
     background-image: url(imagens/fundo.png);
     font-family: Arial, Helvetica, sans-serif;
     width: 900px;
+    margin: auto;
     font-size: 16px;
 }
 
 nav{
     padding: 20px 5px;
+    text-align: center;
     background-color: #d2d2c1;
 }
 
@@ -32,7 +34,11 @@ p{
     padding: 5px;
 }
 
-main > img{
+.alinhamento-img{
+    text-align: center;
+}
+
+.img-campanha{
     border: 10px solid #bdbdbd;
 }
 
