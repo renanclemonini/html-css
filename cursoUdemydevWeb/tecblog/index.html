@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecBlog - O Seu Blog de Tecnologia</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        body{
+            background-color: #ececec;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1em;
+        }
+
+        header{
+            background-color: #f7b600;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header > h1{
+            padding: 20px;
+            font-size: 2.5em;
+        }
+
+        .tec{
+            color: #4e4e4e;
+        }
+
+        .blog{
+            color: #ffffff;
+        }
+
+        nav{
+            font-size: 1.2em;
+        }
+
+        nav > a{
+            color: #ffffff;
+            font-weight: bold;
+            padding: 8px 12px;
+            text-decoration: none;
+        }
+
+        a:link, a:visited{
+            color: #ffffff;
+        }
+
+        a:hover{
+            color: #f7b600;
+            background-color: #ffffff;
+        }
+
+        main{
+            margin: 0 auto;
+            width: 920px;
+            padding: 15px;
+        }
+
+        #area-postagens, #area-lateral{
+            background-color: white;
+        }
+
+        #area-postagens{
+            width: 660px;
+            float: left;
+        }
+
+        .postagem{
+            margin: 10px 15px;
+            padding: 10px;
+        }
+
+        .postagem > h2{
+            color: #f7b600;
+        }
+
+        .data-postagem{
+            font-size: 0.8em;
+        }
+
+        .postagem > img{
+            margin: 15px 0;
+        }
+
+        #area-lateral{
+            width: 240px;
+            float: right;
+        }
+
+        footer{
+            width: 920px;
+            margin: 0 auto;
+            background-color: #ccc;
+            clear: both;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span class="tec">Tec</span><span class="blog">Blog</span></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="informatica.html">Informática</a>
+            <a href="eletronicos.html">Eletrônicos</a>
+        </nav>
+    </header>
+    <main>
+        <div id="area-postagens">
+            <div class="postagem">
+                <h2>Titulo da postagem 1</h2>
+                <span class="data-postagem">postado em 12 janeiro 2023</span>
+                <img width="620px" src="imagens/imagem2.jpg" alt="imagem2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos magni culpa laudantium commodi voluptate omnis harum mollitia repellat alias similique quam quaerat illo, non nobis assumenda aspernatur minus temporibus aperiam.</p>
+            </div>
+        </div>
+        <div id="area-lateral">
+            <div class="postagem-lateral">
+                postagem lateral 
+            </div>
+        </div>
+    </main>
+    <footer>
+        Todos os direitos reservados
+    </footer>
+</body>
+</html>
