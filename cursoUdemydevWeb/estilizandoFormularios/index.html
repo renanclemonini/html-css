@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando Formulários</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        fieldset{
+            padding: 20px;
+            margin: 20px 5px;
+            border: 1px solid #ccc;
+            background: #f8f8f8;
+        }
+
+        legend{
+            font-weight: bold;
+        }
+
+        label{
+            display: block;
+            cursor: pointer;
+        }
+
+        input{
+            width: 20em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Estilizando Formulários</h2>
+    <div id="contato">
+        <form action="">
+            <fieldset>
+                <legend>Detalhes Contato</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="url">URL:</label>
+                    <input type="text" name="url" id="url">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Comentários</legend>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
