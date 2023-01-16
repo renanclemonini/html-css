@@ -11,8 +11,8 @@
         }
 
         fieldset{
-            padding: 20px;
-            margin: 20px 5px;
+            padding: 1em;
+            margin: 1em 0;
             border: 1px solid #ccc;
             background: #f8f8f8;
         }
@@ -28,6 +28,19 @@
 
         input{
             width: 20em;
+        }
+
+        textarea{
+            width: 20em;
+            height: 10em;
+        }
+
+        input.radio, input.checkbox, input.submit{
+            width: auto;
+        }
+
+        .radio{
+            margin-right: 1em;
         }
     </style>
 </head>
@@ -52,11 +65,25 @@
             </fieldset>
             <fieldset>
                 <legend>Comentários</legend>
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Lembrar de mim</legend>
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="sim">Sim
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="nao">Não
+                    </label>
+                </div>
             </fieldset>
         </form>
-
     </div>
 </body>
 </html>
