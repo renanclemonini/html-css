@@ -1,0 +1,14 @@
+#caixa{
+    height: 300px;
+    width: 300px;
+    background-color: #b9c941;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#caixa2{
+    height: 300px;
+    width: 400px;
+    background-color: #b9c941;
+}
