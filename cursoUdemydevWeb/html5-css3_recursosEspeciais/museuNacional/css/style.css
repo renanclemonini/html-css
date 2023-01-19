@@ -62,7 +62,6 @@ nav ul li a:hover{
 #conteudo{
     width: 710px;
     float: left;
-    background: #008000;
 }
 
 aside{
@@ -89,6 +88,18 @@ section#galeria a{
     float: left;
     padding: 20px 16px;
     margin: 10px 0 0 20px;
+}
+
+div#video{
+    float: left;
+    width: 310px;
+}
+
+h3{
+    color: #227115;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h4{
