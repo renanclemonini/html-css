@@ -93,6 +93,25 @@ section#galeria a{
 div#video{
     float: left;
     width: 310px;
+    margin-left: 25px;
+}
+
+div#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+div#exposicoes{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+div#historia{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
 }
 
 h3{
