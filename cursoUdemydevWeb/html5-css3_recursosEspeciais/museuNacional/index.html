@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js" integrity="sha512-kvbHKHtR0/vWvOYkfthvwJx+/QhRY1TCF5Xd9keNhB1CENeowAW0RpbfyLWjN5+6483burKetEhjpkT0jNp1LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="container"><!-- Inicio container-->
+        <header><!-- Inicio header -->
+
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+            <nav><!-- Inicio Nav-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav><!-- /fim Nav-->
+
+        </header><!-- /fim header -->
+
+        <main id="principal"><!-- Inicio Principal-->
+
+            <article id="conteudo"><!-- Inicio conteudo-->
+
+                <section id="capa">
+                    <img src="img/museu.png" alt="museu">
+                </section> 
+
+            </article><!-- /fim conteudo-->
+
+            <aside><!-- Inicio lateral -->
+
+                <section id="depoimento"><!-- Inicio depoimento -->
+                    <img src="img/depoimento.png" alt="depoimento">
+                </section><!-- /fim depoimento -->
+
+                <section id="visita"><!-- Inicio seção visita -->
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend class="legenda">Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" name="data" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" type="text" name="data" style="width: 30px;" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+
+                    </form>
+                </section><!-- /fim seção visita -->
+
+                <section id="galeria"><!-- Inicio seção galeria -->
+                    <h4>Galeria de Fotos</h4>
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93" width="93" alt="imagem1">
+                    </a>
+
+                    <a href=""><img src="img/imagem2.jpg" height="93" width="93" alt="imagem2.jpg"></a>
+
+                    <a href=""><img src="img/imagem3.jpg" height="93" width="93" alt="imagem3.jpg"></a>
+                    
+                    <a href=""><img src="img/imagem4.jpg" height="93" width="93" alt="imagem4.jpg"></a>
+                </section><!-- /fim seção galeria -->
+
+            </aside><!-- /fim lateral -->
+
+        </main><!-- /fim Principal-->
+        
+    </div><!-- /fim container-->
+</body>
+</html>
